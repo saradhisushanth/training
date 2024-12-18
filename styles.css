@@ -6,9 +6,46 @@ header {
     display: inline;
     margin: 15px;
 }
+nav {
+    background-color: lavender;
+    padding: 10px;
+    text-align: center;
+}
+.navbar{
+    list-style: none;
+}
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+.navbar a {
+    padding: 8px 15px;
+    color: black;
+
+}
+.navbar a:hover{
+    background-color: aquamarine;
+    color: black;
+}
+.navbar a.active{
+    background-color: aqua;
+    color:black;
+}
 section {
     margin: 10px;
     padding: 20px;
+}
+.pic{
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.pic:hover{
+    background-color: darkseagreen;
 }
 #home {
     background-color: aqua;
